@@ -10,6 +10,11 @@
             "Marcohern\\Registrar\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Marcohern\\Registrar\\Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "Marco Hernandez",
