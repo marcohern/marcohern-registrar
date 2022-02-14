@@ -25,5 +25,12 @@
     ],
     "require": {
         "marcohern/entities": "^1.0"
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Marcohern\\Registrar\\RegistrarServiceProvider"
+        ]
+      }
     }
 }
