@@ -4,8 +4,38 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6a16848a8ddabb62c10dc1e0d3e73dd9",
-    "packages": [],
+    "content-hash": "d8b08dc6f48d83f0be7da9f6d0aba75c",
+    "packages": [
+        {
+            "name": "marcohern/entities",
+            "version": "1.0",
+            "dist": {
+                "type": "path",
+                "url": "../entities",
+                "reference": "e4b943deac0e3fe8c30632951c7518db4db70d58"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Marcohern\\Entities\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Marco Hernandez",
+                    "email": "marcohern@gmail.com"
+                }
+            ],
+            "description": "Entities for all my Laravel projects",
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        }
+    ],
     "packages-dev": [
         {
             "name": "brick/math",
